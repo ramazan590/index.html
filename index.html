@@ -13,8 +13,18 @@
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 0;
+            padding: 20px 0;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
             text-align: center;
+        }
+        .contact-info {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            text-align: right;
         }
         nav {
             display: flex;
@@ -34,6 +44,13 @@
         .container {
             padding: 20px;
         }
+        .container img {
+            max-width: 100%;
+            height: auto;
+        }
+        section {
+            margin-bottom: 20px;
+        }
         footer {
             background-color: #4CAF50;
             color: white;
@@ -48,6 +65,10 @@
 <body>
     <header>
         <h1>Hayvancılık Bilgi Portalı</h1>
+        <div class="contact-info">
+            <p>Email: info@hayvancilikbilgiportali.com</p>
+            <p>Telefon: +90 123 456 7890</p>
+        </div>
     </header>
 
     <nav>
@@ -60,11 +81,13 @@
     <div class="container">
         <section id="about">
             <h2>Hakkımızda</h2>
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPSDM96tfBlsWsmistgeErKHN-GLu6BWScpvvfl=w408-h408-k-no" alt="Hakkımızda">
             <p>Hayvancılık Bilgi Portalı, hayvancılıkla ilgili doğru ve güvenilir bilgileri paylaşmak amacıyla kurulmuştur. Amacımız, hayvan yetiştiricilerine ve hayvanseverlere en iyi kaynakları sunmaktır.</p>
         </section>
 
         <section id="types">
             <h2>Hayvan Türleri</h2>
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPSDM96tfBlsWsmistgeErKHN-GLu6BWScpvvfl=w408-h408-k-no" alt="Hayvan Türleri">
             <p>Farklı hayvan türleri ve bu türlerin özellikleri hakkında bilgi edinin.</p>
             <ul>
                 <li>Büyükbaş Hayvanlar</li>
@@ -76,6 +99,7 @@
 
         <section id="care">
             <h2>Bakım İpuçları</h2>
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPSDM96tfBlsWsmistgeErKHN-GLu6BWScpvvfl=w408-h408-k-no" alt="Bakım İpuçları">
             <p>Hayvan bakımına dair ipuçları ve öneriler.</p>
             <ul>
                 <li>Beslenme</li>
